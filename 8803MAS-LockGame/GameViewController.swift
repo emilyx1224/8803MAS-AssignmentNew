@@ -25,6 +25,8 @@ class GameViewController: UIViewController {
 //         present(gvc, animated: true, completion: nil)
         self.viewDidLoad()
         Analytics.logEvent("Restart_button_pressed", parameters: nil)
+        
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
