@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>77507984623-u9fvrheg9erbidrscn9odv06rm1cbgkm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.77507984623-u9fvrheg9erbidrscn9odv06rm1cbgkm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCdrS6Kv9Qo6s6TYubi2Xpoez3yvZe6Erc</string>
+	<key>GCM_SENDER_ID</key>
+	<string>77507984623</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>yxue.-803MAS-LockGame</string>
+	<key>PROJECT_ID</key>
+	<string>mas-fc6e1</string>
+	<key>STORAGE_BUCKET</key>
+	<string>mas-fc6e1.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:77507984623:ios:c14f1f2e5389d277</string>
+	<key>DATABASE_URL</key>
+	<string>https://mas-fc6e1.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03718B05231B459600A5B233 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03718B04231B459600A5B233 /* Extensions.swift */; };
+		03A18D7D231C500500333DEC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 03A18D7C231C500500333DEC /* GoogleService-Info.plist */; };
+		03CB205D231C306400636E65 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03CB205C231C306400636E65 /* MenuViewController.swift */; };
+		03F47D14231AF7DC0079A9D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D13231AF7DC0079A9D0 /* AppDelegate.swift */; };
+		03F47D18231AF7DD0079A9D0 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 03F47D17231AF7DD0079A9D0 /* Actions.sks */; };
+		03F47D1A231AF7DD0079A9D0 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D19231AF7DD0079A9D0 /* GameScene.swift */; };
+		03F47D1C231AF7DD0079A9D0 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D1B231AF7DD0079A9D0 /* GameViewController.swift */; };
+		03F47D1F231AF7DD0079A9D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F47D1D231AF7DD0079A9D0 /* Main.storyboard */; };
+		03F47D21231AF7DF0079A9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03F47D20231AF7DF0079A9D0 /* Assets.xcassets */; };
+		03F47D24231AF7DF0079A9D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F47D22231AF7DF0079A9D0 /* LaunchScreen.storyboard */; };
+		03F47D2F231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D2E231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift */; };
+		03F47D3A231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D39231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift */; };
+		7B7E14BA388E0F5A102DD9A1 /* Pods_8803MAS_LockGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E88A34D167FD18331E5ADF /* Pods_8803MAS_LockGameTests.framework */; };
+		ADE3AF0B8359DC988544E4A1 /* Pods_8803MAS_LockGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57497149AD3C3D2C947F228F /* Pods_8803MAS_LockGameUITests.framework */; };
+		F85C6FAC7006A19D671ACAD3 /* Pods_8803MAS_LockGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B32AE117990A96343CD8BB /* Pods_8803MAS_LockGame.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		03F47D2B231AF7DF0079A9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F47D08231AF7DC0079A9D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F47D0F231AF7DC0079A9D0;
+			remoteInfo = "8803MAS-LockGame";
+		};
+		03F47D36231AF7E00079A9D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 03F47D08231AF7DC0079A9D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 03F47D0F231AF7DC0079A9D0;
+			remoteInfo = "8803MAS-LockGame";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03718B04231B459600A5B233 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		03A18D7C231C500500333DEC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		03CB205C231C306400636E65 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		03F47D10231AF7DC0079A9D0 /* 8803MAS-LockGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "8803MAS-LockGame.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F47D13231AF7DC0079A9D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03F47D17231AF7DD0079A9D0 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		03F47D19231AF7DD0079A9D0 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		03F47D1B231AF7DD0079A9D0 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		03F47D1E231AF7DD0079A9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03F47D20231AF7DF0079A9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03F47D23231AF7DF0079A9D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03F47D25231AF7DF0079A9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F47D2A231AF7DF0079A9D0 /* 8803MAS-LockGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8803MAS-LockGameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F47D2E231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _803MAS_LockGameTests.swift; sourceTree = "<group>"; };
+		03F47D30231AF7DF0079A9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03F47D35231AF7E00079A9D0 /* 8803MAS-LockGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8803MAS-LockGameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		03F47D39231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _803MAS_LockGameUITests.swift; sourceTree = "<group>"; };
+		03F47D3B231AF7E00079A9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29CAD151A30CB799B93285D0 /* Pods-8803MAS-LockGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameTests.release.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameTests/Pods-8803MAS-LockGameTests.release.xcconfig"; sourceTree = "<group>"; };
+		57497149AD3C3D2C947F228F /* Pods_8803MAS_LockGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8803MAS_LockGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D7C5AE8E637A0A5428ABB9A /* Pods-8803MAS-LockGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameUITests.release.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameUITests/Pods-8803MAS-LockGameUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73E88A34D167FD18331E5ADF /* Pods_8803MAS_LockGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8803MAS_LockGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		761F09081C21703BFDB8D58F /* Pods-8803MAS-LockGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGame.release.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame.release.xcconfig"; sourceTree = "<group>"; };
+		88B32AE117990A96343CD8BB /* Pods_8803MAS_LockGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8803MAS_LockGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE3A1716087CE7339FC1118A /* Pods-8803MAS-LockGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGame.debug.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C20642551B8B8E37F12C53 /* Pods-8803MAS-LockGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameUITests/Pods-8803MAS-LockGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E4DCCD4B559600D502087892 /* Pods-8803MAS-LockGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameTests.debug.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameTests/Pods-8803MAS-LockGameTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03F47D0D231AF7DC0079A9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F85C6FAC7006A19D671ACAD3 /* Pods_8803MAS_LockGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F47D27231AF7DF0079A9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B7E14BA388E0F5A102DD9A1 /* Pods_8803MAS_LockGameTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F47D32231AF7E00079A9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADE3AF0B8359DC988544E4A1 /* Pods_8803MAS_LockGameUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03F47D07231AF7DC0079A9D0 = {
+			isa = PBXGroup;
+			children = (
+				03F47D12231AF7DC0079A9D0 /* 8803MAS-LockGame */,
+				03F47D2D231AF7DF0079A9D0 /* 8803MAS-LockGameTests */,
+				03F47D38231AF7E00079A9D0 /* 8803MAS-LockGameUITests */,
+				03F47D11231AF7DC0079A9D0 /* Products */,
+				11797B643B90B3A8C0846765 /* Pods */,
+				0F905BB88B5B022C4161CABD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		03F47D11231AF7DC0079A9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03F47D10231AF7DC0079A9D0 /* 8803MAS-LockGame.app */,
+				03F47D2A231AF7DF0079A9D0 /* 8803MAS-LockGameTests.xctest */,
+				03F47D35231AF7E00079A9D0 /* 8803MAS-LockGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03F47D12231AF7DC0079A9D0 /* 8803MAS-LockGame */ = {
+			isa = PBXGroup;
+			children = (
+				03F47D13231AF7DC0079A9D0 /* AppDelegate.swift */,
+				03F47D17231AF7DD0079A9D0 /* Actions.sks */,
+				03F47D19231AF7DD0079A9D0 /* GameScene.swift */,
+				03F47D1B231AF7DD0079A9D0 /* GameViewController.swift */,
+				03F47D1D231AF7DD0079A9D0 /* Main.storyboard */,
+				03A18D7C231C500500333DEC /* GoogleService-Info.plist */,
+				03F47D20231AF7DF0079A9D0 /* Assets.xcassets */,
+				03F47D22231AF7DF0079A9D0 /* LaunchScreen.storyboard */,
+				03F47D25231AF7DF0079A9D0 /* Info.plist */,
+				03718B04231B459600A5B233 /* Extensions.swift */,
+				03CB205C231C306400636E65 /* MenuViewController.swift */,
+			);
+			path = "8803MAS-LockGame";
+			sourceTree = "<group>";
+		};
+		03F47D2D231AF7DF0079A9D0 /* 8803MAS-LockGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				03F47D2E231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift */,
+				03F47D30231AF7DF0079A9D0 /* Info.plist */,
+			);
+			path = "8803MAS-LockGameTests";
+			sourceTree = "<group>";
+		};
+		03F47D38231AF7E00079A9D0 /* 8803MAS-LockGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				03F47D39231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift */,
+				03F47D3B231AF7E00079A9D0 /* Info.plist */,
+			);
+			path = "8803MAS-LockGameUITests";
+			sourceTree = "<group>";
+		};
+		0F905BB88B5B022C4161CABD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88B32AE117990A96343CD8BB /* Pods_8803MAS_LockGame.framework */,
+				73E88A34D167FD18331E5ADF /* Pods_8803MAS_LockGameTests.framework */,
+				57497149AD3C3D2C947F228F /* Pods_8803MAS_LockGameUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11797B643B90B3A8C0846765 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE3A1716087CE7339FC1118A /* Pods-8803MAS-LockGame.debug.xcconfig */,
+				761F09081C21703BFDB8D58F /* Pods-8803MAS-LockGame.release.xcconfig */,
+				E4DCCD4B559600D502087892 /* Pods-8803MAS-LockGameTests.debug.xcconfig */,
+				29CAD151A30CB799B93285D0 /* Pods-8803MAS-LockGameTests.release.xcconfig */,
+				E0C20642551B8B8E37F12C53 /* Pods-8803MAS-LockGameUITests.debug.xcconfig */,
+				6D7C5AE8E637A0A5428ABB9A /* Pods-8803MAS-LockGameUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03F47D0F231AF7DC0079A9D0 /* 8803MAS-LockGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F47D3E231AF7E00079A9D0 /* Build configuration list for PBXNativeTarget "8803MAS-LockGame" */;
+			buildPhases = (
+				E18A066D183861D5F289E585 /* [CP] Check Pods Manifest.lock */,
+				03F47D0C231AF7DC0079A9D0 /* Sources */,
+				03F47D0D231AF7DC0079A9D0 /* Frameworks */,
+				03F47D0E231AF7DC0079A9D0 /* Resources */,
+				5D977EDC240E602BEF65835B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "8803MAS-LockGame";
+			productName = "8803MAS-LockGame";
+			productReference = 03F47D10231AF7DC0079A9D0 /* 8803MAS-LockGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		03F47D29231AF7DF0079A9D0 /* 8803MAS-LockGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F47D41231AF7E00079A9D0 /* Build configuration list for PBXNativeTarget "8803MAS-LockGameTests" */;
+			buildPhases = (
+				E60C81C1A907605F874D1DE2 /* [CP] Check Pods Manifest.lock */,
+				03F47D26231AF7DF0079A9D0 /* Sources */,
+				03F47D27231AF7DF0079A9D0 /* Frameworks */,
+				03F47D28231AF7DF0079A9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F47D2C231AF7DF0079A9D0 /* PBXTargetDependency */,
+			);
+			name = "8803MAS-LockGameTests";
+			productName = "8803MAS-LockGameTests";
+			productReference = 03F47D2A231AF7DF0079A9D0 /* 8803MAS-LockGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		03F47D34231AF7E00079A9D0 /* 8803MAS-LockGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03F47D44231AF7E00079A9D0 /* Build configuration list for PBXNativeTarget "8803MAS-LockGameUITests" */;
+			buildPhases = (
+				C32F671930BAB8E190978400 /* [CP] Check Pods Manifest.lock */,
+				03F47D31231AF7E00079A9D0 /* Sources */,
+				03F47D32231AF7E00079A9D0 /* Frameworks */,
+				03F47D33231AF7E00079A9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				03F47D37231AF7E00079A9D0 /* PBXTargetDependency */,
+			);
+			name = "8803MAS-LockGameUITests";
+			productName = "8803MAS-LockGameUITests";
+			productReference = 03F47D35231AF7E00079A9D0 /* 8803MAS-LockGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03F47D08231AF7DC0079A9D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = yxue;
+				TargetAttributes = {
+					03F47D0F231AF7DC0079A9D0 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					03F47D29231AF7DF0079A9D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 03F47D0F231AF7DC0079A9D0;
+					};
+					03F47D34231AF7E00079A9D0 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 03F47D0F231AF7DC0079A9D0;
+					};
+				};
+			};
+			buildConfigurationList = 03F47D0B231AF7DC0079A9D0 /* Build configuration list for PBXProject "8803MAS-LockGame" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03F47D07231AF7DC0079A9D0;
+			productRefGroup = 03F47D11231AF7DC0079A9D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03F47D0F231AF7DC0079A9D0 /* 8803MAS-LockGame */,
+				03F47D29231AF7DF0079A9D0 /* 8803MAS-LockGameTests */,
+				03F47D34231AF7E00079A9D0 /* 8803MAS-LockGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03F47D0E231AF7DC0079A9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F47D1F231AF7DD0079A9D0 /* Main.storyboard in Resources */,
+				03F47D21231AF7DF0079A9D0 /* Assets.xcassets in Resources */,
+				03A18D7D231C500500333DEC /* GoogleService-Info.plist in Resources */,
+				03F47D24231AF7DF0079A9D0 /* LaunchScreen.storyboard in Resources */,
+				03F47D18231AF7DD0079A9D0 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F47D28231AF7DF0079A9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F47D33231AF7E00079A9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D977EDC240E602BEF65835B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C32F671930BAB8E190978400 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-8803MAS-LockGameUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E18A066D183861D5F289E585 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-8803MAS-LockGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E60C81C1A907605F874D1DE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-8803MAS-LockGameTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03F47D0C231AF7DC0079A9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F47D1A231AF7DD0079A9D0 /* GameScene.swift in Sources */,
+				03CB205D231C306400636E65 /* MenuViewController.swift in Sources */,
+				03F47D1C231AF7DD0079A9D0 /* GameViewController.swift in Sources */,
+				03F47D14231AF7DC0079A9D0 /* AppDelegate.swift in Sources */,
+				03718B05231B459600A5B233 /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F47D26231AF7DF0079A9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F47D2F231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03F47D31231AF7E00079A9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03F47D3A231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		03F47D2C231AF7DF0079A9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F47D0F231AF7DC0079A9D0 /* 8803MAS-LockGame */;
+			targetProxy = 03F47D2B231AF7DF0079A9D0 /* PBXContainerItemProxy */;
+		};
+		03F47D37231AF7E00079A9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 03F47D0F231AF7DC0079A9D0 /* 8803MAS-LockGame */;
+			targetProxy = 03F47D36231AF7E00079A9D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		03F47D1D231AF7DD0079A9D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F47D1E231AF7DD0079A9D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03F47D22231AF7DF0079A9D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03F47D23231AF7DF0079A9D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03F47D3C231AF7E00079A9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03F47D3D231AF7E00079A9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03F47D3F231AF7E00079A9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE3A1716087CE7339FC1118A /* Pods-8803MAS-LockGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8803MAS-LockGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxue.-803MAS-LockGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03F47D40231AF7E00079A9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 761F09081C21703BFDB8D58F /* Pods-8803MAS-LockGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8803MAS-LockGame/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxue.-803MAS-LockGame";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		03F47D42231AF7E00079A9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4DCCD4B559600D502087892 /* Pods-8803MAS-LockGameTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8803MAS-LockGameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxue.-803MAS-LockGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8803MAS-LockGame.app/8803MAS-LockGame";
+			};
+			name = Debug;
+		};
+		03F47D43231AF7E00079A9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29CAD151A30CB799B93285D0 /* Pods-8803MAS-LockGameTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8803MAS-LockGameTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxue.-803MAS-LockGameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/8803MAS-LockGame.app/8803MAS-LockGame";
+			};
+			name = Release;
+		};
+		03F47D45231AF7E00079A9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C20642551B8B8E37F12C53 /* Pods-8803MAS-LockGameUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8803MAS-LockGameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxue.-803MAS-LockGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "8803MAS-LockGame";
+			};
+			name = Debug;
+		};
+		03F47D46231AF7E00079A9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D7C5AE8E637A0A5428ABB9A /* Pods-8803MAS-LockGameUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "8803MAS-LockGameUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yxue.-803MAS-LockGameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "8803MAS-LockGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03F47D0B231AF7DC0079A9D0 /* Build configuration list for PBXProject "8803MAS-LockGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F47D3C231AF7E00079A9D0 /* Debug */,
+				03F47D3D231AF7E00079A9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F47D3E231AF7E00079A9D0 /* Build configuration list for PBXNativeTarget "8803MAS-LockGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F47D3F231AF7E00079A9D0 /* Debug */,
+				03F47D40231AF7E00079A9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F47D41231AF7E00079A9D0 /* Build configuration list for PBXNativeTarget "8803MAS-LockGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F47D42231AF7E00079A9D0 /* Debug */,
+				03F47D43231AF7E00079A9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03F47D44231AF7E00079A9D0 /* Build configuration list for PBXNativeTarget "8803MAS-LockGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03F47D45231AF7E00079A9D0 /* Debug */,
+				03F47D46231AF7E00079A9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03F47D08231AF7DC0079A9D0 /* Project object */;
+}
