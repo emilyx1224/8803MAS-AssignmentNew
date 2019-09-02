@@ -1,7 +1,7 @@
-# 8803MAS-AssignmentNew
-8803MAS-Assignment
+# CS8803 - MAS
+First Programming Practice
 
-How to download and run the code:
+<strong>How to download and run the code:</strong>
 1.	Clone the project to your computer from GitHub repository 
 Link to the project (GitHub)
 https://github.com/emilyx1224/8803MAS-AssignmentNew
