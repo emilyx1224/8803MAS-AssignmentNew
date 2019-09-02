@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "495C5224D184A218DCF6C6A4C9FB38DB"
-               BuildableName = "Pods_8803MAS_LockGameTests.framework"
+               BuildableName = "libPods-8803MAS-LockGameTests.a"
                BlueprintName = "Pods-8803MAS-LockGameTests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "495C5224D184A218DCF6C6A4C9FB38DB"
-            BuildableName = "Pods_8803MAS_LockGameTests.framework"
+            BuildableName = "libPods-8803MAS-LockGameTests.a"
             BlueprintName = "Pods-8803MAS-LockGameTests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
