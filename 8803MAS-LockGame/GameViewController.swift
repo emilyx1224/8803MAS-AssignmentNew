@@ -9,7 +9,7 @@
 import UIKit
 import SpriteKit
 import GameplayKit
-import Firebase
+//import Firebase
 
 class GameViewController: UIViewController {
     
@@ -24,7 +24,30 @@ class GameViewController: UIViewController {
 //  gvc.continueMode = false
 //         present(gvc, animated: true, completion: nil)
         self.viewDidLoad()
-        Analytics.logEvent("Restart_button_pressed", parameters: nil)
+//        Analytics.logEvent("Restart_button_pressed", parameters: nil)
+        let url: URL = URL(string:"https://mas-fc6e1.firebaseio.com/test.json")!
+        
+        var request: URLRequest = URLRequest(url: url)
+        request.httpMethod = "POST"
+        
+        do {
+            request.httpBody =
+                try JSONSerialization.data(withJSONObject: ["first":"Jack", "last": "Sparrow"], options: .prettyPrinted)
+            
+//                Data(base64Encoded: "{ \"first\": \"Jack\", \"last\": \"Sparrow\" }")
+        } catch let error {
+            print(error.localizedDescription)
+        }
+        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+            if error != nil {
+                print(error!)
+            }
+            if response != nil {
+                print(response!)
+            }
+        }
+        
+        task.resume()
     }
     override func viewDidLoad() {
         super.viewDidLoad()

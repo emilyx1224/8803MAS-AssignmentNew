@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -19,9 +19,10 @@
 		03F47D24231AF7DF0079A9D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03F47D22231AF7DF0079A9D0 /* LaunchScreen.storyboard */; };
 		03F47D2F231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D2E231AF7DF0079A9D0 /* _803MAS_LockGameTests.swift */; };
 		03F47D3A231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03F47D39231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift */; };
-		7B7E14BA388E0F5A102DD9A1 /* Pods_8803MAS_LockGameTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73E88A34D167FD18331E5ADF /* Pods_8803MAS_LockGameTests.framework */; };
-		ADE3AF0B8359DC988544E4A1 /* Pods_8803MAS_LockGameUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57497149AD3C3D2C947F228F /* Pods_8803MAS_LockGameUITests.framework */; };
-		F85C6FAC7006A19D671ACAD3 /* Pods_8803MAS_LockGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88B32AE117990A96343CD8BB /* Pods_8803MAS_LockGame.framework */; };
+		282ED0FD231D9F9600B975DA /* FirebaseCore.h in Frameworks */ = {isa = PBXBuildFile; fileRef = 282ED0FC231D9F9600B975DA /* FirebaseCore.h */; };
+		49E246292DEF0CE9BE8E1CA7 /* libPods-8803MAS-LockGame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D11A8FEF593EBC9FBE3335AC /* libPods-8803MAS-LockGame.a */; settings = {ATTRIBUTES = (Weak, ); }; };
+		60460EDCF1C0368A745B6CC5 /* libPods-8803MAS-LockGameUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B3BF7AFF5C86DAD4D49DE75D /* libPods-8803MAS-LockGameUITests.a */; };
+		A9C3DFF387865F6016D744DB /* libPods-8803MAS-LockGameTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04284888FCFA99C66C88C46D /* libPods-8803MAS-LockGameTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,13 +61,14 @@
 		03F47D35231AF7E00079A9D0 /* 8803MAS-LockGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "8803MAS-LockGameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		03F47D39231AF7E00079A9D0 /* _803MAS_LockGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _803MAS_LockGameUITests.swift; sourceTree = "<group>"; };
 		03F47D3B231AF7E00079A9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04284888FCFA99C66C88C46D /* libPods-8803MAS-LockGameTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-8803MAS-LockGameTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		282ED0FC231D9F9600B975DA /* FirebaseCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FirebaseCore.h; path = Pods/FirebaseCore/Firebase/Core/Public/FirebaseCore.h; sourceTree = "<group>"; };
 		29CAD151A30CB799B93285D0 /* Pods-8803MAS-LockGameTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameTests.release.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameTests/Pods-8803MAS-LockGameTests.release.xcconfig"; sourceTree = "<group>"; };
-		57497149AD3C3D2C947F228F /* Pods_8803MAS_LockGameUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8803MAS_LockGameUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D7C5AE8E637A0A5428ABB9A /* Pods-8803MAS-LockGameUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameUITests.release.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameUITests/Pods-8803MAS-LockGameUITests.release.xcconfig"; sourceTree = "<group>"; };
-		73E88A34D167FD18331E5ADF /* Pods_8803MAS_LockGameTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8803MAS_LockGameTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		761F09081C21703BFDB8D58F /* Pods-8803MAS-LockGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGame.release.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame.release.xcconfig"; sourceTree = "<group>"; };
-		88B32AE117990A96343CD8BB /* Pods_8803MAS_LockGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_8803MAS_LockGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE3A1716087CE7339FC1118A /* Pods-8803MAS-LockGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGame.debug.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame.debug.xcconfig"; sourceTree = "<group>"; };
+		B3BF7AFF5C86DAD4D49DE75D /* libPods-8803MAS-LockGameUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-8803MAS-LockGameUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D11A8FEF593EBC9FBE3335AC /* libPods-8803MAS-LockGame.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-8803MAS-LockGame.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C20642551B8B8E37F12C53 /* Pods-8803MAS-LockGameUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameUITests.debug.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameUITests/Pods-8803MAS-LockGameUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4DCCD4B559600D502087892 /* Pods-8803MAS-LockGameTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-8803MAS-LockGameTests.debug.xcconfig"; path = "Target Support Files/Pods-8803MAS-LockGameTests/Pods-8803MAS-LockGameTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,7 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F85C6FAC7006A19D671ACAD3 /* Pods_8803MAS_LockGame.framework in Frameworks */,
+				282ED0FD231D9F9600B975DA /* FirebaseCore.h in Frameworks */,
+				49E246292DEF0CE9BE8E1CA7 /* libPods-8803MAS-LockGame.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B7E14BA388E0F5A102DD9A1 /* Pods_8803MAS_LockGameTests.framework in Frameworks */,
+				A9C3DFF387865F6016D744DB /* libPods-8803MAS-LockGameTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,7 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADE3AF0B8359DC988544E4A1 /* Pods_8803MAS_LockGameUITests.framework in Frameworks */,
+				60460EDCF1C0368A745B6CC5 /* libPods-8803MAS-LockGameUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,9 +163,10 @@
 		0F905BB88B5B022C4161CABD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				88B32AE117990A96343CD8BB /* Pods_8803MAS_LockGame.framework */,
-				73E88A34D167FD18331E5ADF /* Pods_8803MAS_LockGameTests.framework */,
-				57497149AD3C3D2C947F228F /* Pods_8803MAS_LockGameUITests.framework */,
+				282ED0FC231D9F9600B975DA /* FirebaseCore.h */,
+				D11A8FEF593EBC9FBE3335AC /* libPods-8803MAS-LockGame.a */,
+				04284888FCFA99C66C88C46D /* libPods-8803MAS-LockGameTests.a */,
+				B3BF7AFF5C86DAD4D49DE75D /* libPods-8803MAS-LockGameUITests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -191,7 +195,6 @@
 				03F47D0C231AF7DC0079A9D0 /* Sources */,
 				03F47D0D231AF7DC0079A9D0 /* Frameworks */,
 				03F47D0E231AF7DC0079A9D0 /* Resources */,
-				5D977EDC240E602BEF65835B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -313,23 +316,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5D977EDC240E602BEF65835B /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-8803MAS-LockGame/Pods-8803MAS-LockGame-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C32F671930BAB8E190978400 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
